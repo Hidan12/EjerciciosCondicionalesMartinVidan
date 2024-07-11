@@ -124,8 +124,6 @@ if (respuesta != numeroIncognita) {
     }else{
         respuesta = parseInt(prompt("casi pero no... el numero es mayor al que puso, ingrese otro numero (1 al 10)"))
     }    
-}else{
-    console.log("felicidades el numero elegido era el numero incognito");
 }
 if (respuesta != numeroIncognita) {
     if (respuesta > numeroIncognita) {
@@ -133,8 +131,6 @@ if (respuesta != numeroIncognita) {
     }else{
         respuesta = parseInt(prompt("casi pero no... el numero es mayor al que puso, ingrese otro numero (1 al 10)"))
     }    
-}else{
-    console.log("felicidades el numero elegido era el numero incognito");
 }
 if (respuesta != numeroIncognita) {
     console.log("numero equivocado, usted perdio");
